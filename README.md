@@ -31,5 +31,5 @@
 
 *联系方式*:QQ-471160171
 
-1.  [如何提问](http://www.example.com),这次例会主要涉及的是学会如何聪明地提问,并且推荐了几个提问的网站.
-2.  [UNIX SHELL 基础](http://www.example2.com),这次例会主要讲了一些有关UNIX的命令行的基本内容和语法,例如冲定向,文件,权限等等.
+1.  [如何提问](http://slides.com/gaopeng/ask-smart-question),这次例会主要涉及的是学会如何聪明地提问,并且推荐了几个提问的网站.
+2.  [UNIX SHELL 基础](http://slides.com/gaopeng/unix-shel#/),这次例会主要讲了一些有关UNIX的命令行的基本内容和语法,例如冲定向,文件,权限等等.
