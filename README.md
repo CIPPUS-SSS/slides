@@ -33,3 +33,10 @@
 
 1.  [如何提问](http://slides.com/gaopeng/ask-smart-question),这次例会主要涉及的是学会如何聪明地提问,并且推荐了几个提问的网站.
 2.  [UNIX SHELL 基础](http://slides.com/gaopeng/unix-shel#/),这次例会主要讲了一些有关UNIX的命令行的基本内容和语法,例如冲定向,文件,权限等等.
+
+### 易君
+*组别*:运维组
+
+*联系方式*:QQ-383548557
+
+1. [版本控制](http://slides.com/junyi/version-control),讲述版本控制的基本概念和git的基本用法.
