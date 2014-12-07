@@ -40,3 +40,18 @@
 *联系方式*:QQ-383548557
 
 1. [版本控制](http://slides.com/junyi/version-control),讲述版本控制的基本概念和git的基本用法.
+
+###邵明全
+*组别*:开发组
+
+*联系方式*:QQ-1218525419
+
+1. [前端简介](http://slides.com/shaomingquan/front-end),简单介绍了HTML/CSS/JS的相关内容.
+
+###张赫
+*组别*:运维组
+
+*联系方式*:QQ-291606023
+
+1. [后端python开发](http://slides.com/zhanghe-dut/back-end#/),python相关语法和web框架.
+
