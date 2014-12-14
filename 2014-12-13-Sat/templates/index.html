@@ -1,0 +1,172 @@
+<!doctype>
+<html>
+    <head>
+        <meta charset='utf8'>
+        <style>
+            p,h1{
+                margin:0px;
+            }
+            #header {
+                background-color:#000;
+                color:white;
+                height:100px;
+            }
+            #header h1 {
+                line-height:90px;
+                text-align:center;
+            }
+            #navigator {
+                margin-top:10px;
+                border:1px solid #eee;
+                background-color:#000;
+                height:50px;
+            }
+            #navigator ul {
+                width:400px;
+                margin-left:auto;
+                margin-right:auto;
+            }
+            #navigator ul li {
+                display:inline;
+                text-align:center;
+            }
+            #navigator ul li a {
+                text-decoration:none;
+                color:white;
+            }
+            #navigator ul li a:visited{
+                color:yellow;
+            }
+            #navigator ul li a:hover{
+                color:black;
+            }
+            #main {
+                background-color:purple;
+                color:yellow;
+                margin-right:220px;
+            }
+            #archive {
+                background-color:green;
+                width:200px;
+                float:right;
+            }
+            #random {
+                background-color:red;
+                height:100px;
+            }
+            #footer {
+                background-color:blue;
+                height:50px;
+            }
+            #footer p {
+                text-align:center;
+            }
+            span {
+                color:#000;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>软院题库网</h1>
+        </div>
+        <div id="navigator">
+            <ul>
+                <li><a href="about.html">about</a></li>
+                <li><a href=#>anchor2</a></li>
+                <li><a href=#>anchor3</a></li>
+                <li><a href=#>anchor4</a></li>
+                <li><a href=#>anchor5</a></li>
+                <li><a href=#>anchor5</a></li>
+            </ul>
+        </div>
+        <div id="archive">
+            <ul>
+                <li><a>anchor1</a></li>
+                <li><a>anchor2</a></li>
+                <li><a>anchor3</a></li>
+                <li><a>anchor4</a></li>
+                <li><a>anchor5</a></li>
+                <li><a>anchor5</a></li>
+                <li><a>anchor6</a></li>
+                <li><a>anchor8</a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <h1>news</h1>
+            <p>
+                An “interceptor” is a function that is invoked by the framework before or after an action invocation. It allows a form of Aspect Oriented Programming, which is useful for some common concerns:
+
+                Request logging
+                Error handling
+                Stats keeping
+                In Revel, an interceptor can take one of two forms:
+
+                Func Interceptor: A function meeting the InterceptorFunc interface.
+                Does not have access to specific application Controller invoked.
+                May be applied to any / all Controllers in an application.
+                Method Interceptor: A controller method accepting no arguments and returning a revel.Result
+                May only intercept calls to the bound Controller.
+                May modify the invoked controller as desired.
+                Interceptors are called in the order that they are added.
+
+                Intercept Times
+
+                An interceptor can be registered to run at four points in the request lifecycle:
+
+                BEFORE: After the request has been routed, the session, flash, and parameters decoded, but before the action has been invoked.
+                AFTER: After the request has returned a Result, but before that Result has been applied. These interceptors are not invoked if the action panicked.
+                PANIC: After a panic exits an action or is raised from applying the returned Result.
+                FINALLY: After an action has completed and the Result has been applied.
+                Results
+
+                Interceptors typically return nil, in which case the request continues to be processed without interruption.
+
+                The effect of returning a non-nil revel.Result depends on when the interceptor was invoked.
+
+                BEFORE: No further interceptors are invoked, and neither is the action.
+                AFTER: All interceptors are still run.
+                PANIC: All interceptors are still run.
+                FINALLY: All interceptors are still run.
+                In all cases, any returned Result will take the place of any existing Result.
+
+                In the BEFORE case, however, that returned Result is guaranteed to be final, while in the AFTER case it is possible that a further interceptor could emit its own Result.
+
+                Examples
+
+                Func Interceptor
+
+                Here’s a simple example defining and registering a Func Interceptor.
+
+                func checkUser(c *revel.Controller) revel.Result {
+                if user := connected(c); user == nil {
+                c.Flash.Error("Please log in first")
+                return c.Redirect(App.Index)
+                }
+                return nil
+                }
+
+                func init() {
+                revel.InterceptFunc(checkUser, revel.BEFORE, &Hotels{})
+                }
+                Method Interceptor
+
+                A method interceptor signature may have one of these two forms:
+
+                func (c AppController) example() revel.Result
+                func (c *AppController) example() revel.Result
+                Here’s the same example that operates only on the app controller.
+
+                func (c Hotels) checkUser() revel.Result {
+                This is main cotent
+                asdasda
+                qwdqwd
+                qwdqw
+                dqwdasdddddddddddddddddddddddddd
+            </p>
+        </div>
+        <div id="footer">
+            <p>This is footer</p>
+        </div>
+    </body>
+</html>
