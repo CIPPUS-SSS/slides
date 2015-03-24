@@ -63,3 +63,8 @@
 1. [后端python开发](http://slides.com/zhanghe-dut/back-end#/),python相关语法和web框架.
 
 ###王振东
+*组别*：开发组
+
+*联系方式*：qq-1837703222
+
+1. [cocos2dx游戏引擎简介](http://pan.baidu.com/s/1gdGiPyV),c++和简单介绍2d游戏制作
