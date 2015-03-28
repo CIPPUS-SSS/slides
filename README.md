@@ -40,6 +40,7 @@
 2.  [UNIX SHELL 基础](http://slides.com/gaopeng/unix-shel#/),这次例会主要讲了一些有关UNIX的命令行的基本内容和语法,例如冲定向,文件,权限等等.
 3.  [前后端合作示例代码目录](2014-12-13-Sat),时间:2014-12-13,这次例会讲解了网页的布局和基本架构,示例使用了Flask的路由规则,并且简单地提了一下如何使用模板.
 4.  [二叉树之红黑树](https://github.com/CIPPUS-SSS/assignment/blob/master/binary_tree/lecture_cn.md),时间:2015-3-14,这次例会讲解了23树演变的红黑树,由于时间原理没有讲删除.
+5.  [学生周知机器人的实现](https://github.com/ggaaooppeenngg/QQLogin),时间:2015-3-28,这次例会讲了模拟登陆QQ空间转发学生周知的实现和一些安全问题.
 
 ### 易君
 *组别*:运维组
@@ -68,3 +69,4 @@
 *联系方式*：qq-1837703222
 
 1. [cocos2dx游戏引擎简介](http://pan.baidu.com/s/1gdGiPyV),c++和简单介绍2d游戏制作
+
