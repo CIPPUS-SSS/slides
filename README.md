@@ -76,3 +76,5 @@
 *组别*：运维组
 
 *联系方式*：QQ-2294150735
+
+1.[python&C++图形界面编程](https://github.com/CIPPUS-SSS/slides/tree/master/2015-04-001),PyQt Gui库介绍，C++ Qt介绍，面向对象编程。
