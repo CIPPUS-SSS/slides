@@ -416,7 +416,7 @@ Absolute positioning
 #     def initUi(self):
 #         lbl1 = QLabel("zetcode", self)
 #         lbl1.move(15,10)
-######
+#
 #         lbl2 = QLabel("tutorials", self)
 #         lbl2.move(35,40)
 #
@@ -566,7 +566,10 @@ Box layout
 #     sys.exit(app.exec_())
 
 
-'''signals and slots'''
+'''
+signals and slots
+QSlider
+'''
 #
 # #!/usr/bin/python3
 # #-*- coding: utf-8 -*-
@@ -651,7 +654,6 @@ Box layout
 #         self.initUi()
 #
 #     def initUi(self):
-#
 #         btn1 = QPushButton("button 1", self)
 #         btn1.move(30, 50)
 #
@@ -968,6 +970,7 @@ Box layout
 #
 #         self.square = QFrame(self)
 #         self.square.setGeometry(150, 20, 100, 100)
+'''setStyleSheet!!!'''
 #         self.square.setStyleSheet('QWidget {background-color: %s }' % self.col.name)
 #         self.setGeometry(300, 300, 280, 170)
 #         self.setWindowTitle('toggle button')
