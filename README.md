@@ -78,3 +78,12 @@
 *联系方式*：QQ-2294150735
 
 1.[python&C++图形界面编程](https://github.com/tbbrave/simpole-sticky-note.git),PyQt Gui库介绍，C++ Qt介绍，面向对象编程.
+
+###陈天韵
+
+*组别*:开发组
+
+*联系方式*:510869582@qq.com
+
+1.  [科学上网](http://pan.baidu.com/s/1gdxxVyF),时间:2014-11-01,科学上网的思想及相应工具介绍.
+2.  [C指针和结构体简介及程序调试](http://pan.baidu.com/s/1i3uBYLn),时间:2015-10-11,C指针和结构体的简介,程序调试的基本方法.
